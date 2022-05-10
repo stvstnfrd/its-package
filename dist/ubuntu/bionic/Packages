@@ -1,0 +1,18 @@
+Package: its-package
+Version: 0.0.0~ubuntu-bionic
+Architecture: all
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 10
+Depends: apg, bash, bash-completion, bc, build-essential, coreutils, cowsay, curl, dash, figlet, findutils, fortune, git, gnupg, graphviz, grep, htop, jq, less, lsb-core, lynx, man, mutt, neofetch, netcat, newsboat, nodejs, pandoc, pass, python3.8, qrencode, ranger, sbcl, sed, screen, shellcheck, sqlite, stow, sudo, tmux, tree, vim, watch, wget, whois, xz-utils, zsh
+Recommends: brightnessctl, bsdgames, claws-mail, claws-mail-doc, claws-mail-tools, cmatrix, cmus, dmenu, exfat-fust, exfat-utils, firejail, i3, i3lock, i3status, openssh-server, py3status, rsync, sox, ufw, v4l2loopback-dkms, v4l2loopback-utils, vlc, xcape, xclip
+Filename: ./its-package_0.0.0~ubuntu-bionic_all.deb
+Size: 2738
+MD5sum: 0db002a3b7152c6dfe235b9113b0ea54
+SHA1: 89b226537fc2f441c99357662e82cd37ac00063e
+SHA256: 533e8723ac3202dfb8636a52951a375ba4f62a11ca9b4b06830f53c5bbf88a23
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package to automate my local system installs.
+
