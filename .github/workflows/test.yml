@@ -1,0 +1,39 @@
+---
+name: Validate changeset
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+jobs:
+  bootstrap:
+    strategy:
+      matrix:
+        os:
+        - debian-bullseye
+        - debian-buster
+        - debian-sid
+        - ubuntu-bionic
+        - ubuntu-impish
+        - ubuntu-jammy
+    runs-on: ${{ matrix.os }}
+    steps:
+    - uses: actions/checkout@v2
+    - run: sh ./bin/bootstrap.sh >/tmp/bootstrap.sh
+    - run: sh /tmp/bootstrap.sh
+  make_release:
+    strategy:
+      matrix:
+        os:
+        - debian-bullseye
+        - debian-buster
+        - debian-sid
+        - ubuntu-bionic
+        - ubuntu-impish
+        - ubuntu-jammy
+    runs-on: ${{ matrix.os }}
+    steps:
+    - uses: actions/checkout@v1
+    - run: make release
