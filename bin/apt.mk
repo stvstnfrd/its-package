@@ -15,18 +15,12 @@ GPG_SIGNING_ID=$(shell git config user.email)
 deb:  ## Make all .deb files
 	$(MAKE) $(ALL_DEBS)
 
-release: deb key  ## Update all release files
+release: deb $(PUBLIC_KEYS)  ## Update all release files
 	$(MAKE) $(RELEASES_GPG) $(IN_RELEASES)
 	$(MAKE) $(SOURCES_LISTS)
 	$(MAKE) $(BOOTSTRAPS)
 
 %: bin/apt.mk bin/secret.mk
-
-.PHONY: key
-key:  ## Create a new signing key
-ifeq (,$(shell $(GPG) --list-keys "$(GPG_SIGNING_ID)" 2>/dev/null))
-	$(GPG) --full-generate-key
-endif
 
 PACKAGES_LISTS=$(addsuffix /Packages,$(subst src/,dist/,$(DEB_DISTROS)))
 $(PACKAGES_LISTS):
@@ -53,16 +47,25 @@ $(SOURCES_LISTS):
 
 BOOTSTRAPS=$(addsuffix /Bootstrap.sh,$(subst src/,dist/,$(DEB_DISTROS)))
 %/Bootstrap.sh: %/Key.gpg bin/bootstrap.sh
-	cd "$(@D)" && echo "#!/bin/sh" > Bootstrap.sh
-	ID="$$(echo "$(@D)" | sed 's@^dist/\([^/]\+\)/\([^/]\+\)@\1@')" \
-	CODENAME="$$(echo "$(@D)" | sed 's@^dist/\([^/]\+\)/\([^/]\+\)@\2@')" \
-	./bin/bootstrap.sh > "$(@)"
+	sed 's@^PACKAGE_KEY=.*$$@PACKAGE_KEY="$(shell cat "$(<)" | base64 --wrap=0)"@' ./bin/bootstrap.sh > "$(@)"
+
+bin/bootstrap.sh: etc/Key.gpg
+	sed -i 's@^PACKAGE_KEY=.*$$@PACKAGE_KEY="$(shell cat "$(<)" | base64 --wrap=0)"@' "$(@)"
+	curl https://download.docker.com/linux/debian/gpg | gpg --dearmour >etc/Key.docker.gpg
+	sed -i 's@^DOCKER_PACKAGE_KEY=.*$$@DOCKER_PACKAGE_KEY="$(shell cat "etc/Key.docker.gpg" | base64 --wrap=0)"@' "$(@)"
 
 PUBLIC_KEYS=$(addsuffix /Key.gpg,$(subst src/,dist/,$(DEB_DISTROS)))
-.PHONY: $(PUBLIC_KEYS)
-$(PUBLIC_KEYS):
-	@gpg --export "$(GPG_SIGNING_ID)" > "$(@).new"
-	@if [ -n "$$(diff "$(@)" "$(@).new" 2>&1)" ]; \
+$(PUBLIC_KEYS): etc/Key.gpg
+	cp "$(<)" "$(@)"
+
+.PHONY: etc/Key.gpg
+etc/Key.gpg:  ## (re)create the public signing key
+	if ! $(GPG) --list-keys "$(GPG_SIGNING_ID)" >/dev/null 2>&1; \
+	then \
+		$(GPG) --full-generate-key; \
+	fi
+	gpg --export "$(GPG_SIGNING_ID)" > "$(@).new"
+	if [ -n "$$(diff "$(@)" "$(@).new" 2>&1)" ]; \
 	then \
 		mv "$(@).new" "$(@)"; \
 		echo "Remade $(@)"; \
