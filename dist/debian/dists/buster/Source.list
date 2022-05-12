@@ -1,0 +1,2 @@
+deb [signed-by=/usr/local/share/keyrings/its-package.gpg] https://raw.githubusercontent.com/stvstnfrd/its-package/master/dist/debian/buster/dists/buster ./
+deb [arch= signed-by=/usr/local/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian/buster dists/buster stable

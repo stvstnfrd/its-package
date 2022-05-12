@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 12 May 2022 00:49:42 -0600
+Source: its-package
+Binary: its-package
+Built-For-Profiles: noudeb
+Architecture: all
+Version: 0.1.0~debian-sid
+Distribution: unstable
+Urgency: low
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Changed-By: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Description:
+ its-package - This is a meta-package to automate my local system installs.
+Changes:
+ its-package (0.1.0~debian-sid) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ df28cf171b2155792597616b568c36dd6834227e 2756 its-package_0.1.0~debian-sid_all.deb
+ 803f43c62078c2909f6e887277f0b72707aae3c3 5744 its-package_0.1.0~debian-sid_amd64.buildinfo
+Checksums-Sha256:
+ 0c19075a6d0e63e450352f4864fc107892b9d8ee2a62fae5563e48712f48737a 2756 its-package_0.1.0~debian-sid_all.deb
+ 517a066e079c11c1bf573e6c465b29dd0312c87a14ad66fa5295e1659c8c7954 5744 its-package_0.1.0~debian-sid_amd64.buildinfo
+Files:
+ 34fea35ec973ee82561a75cbfc1d1e18 2756 misc optional its-package_0.1.0~debian-sid_all.deb
+ d620f5a52911d449254f25cbd71dae2f 5744 misc optional its-package_0.1.0~debian-sid_amd64.buildinfo

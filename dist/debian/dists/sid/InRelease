@@ -1,0 +1,27 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Thu, 12 May 2022 06:49:52 +0000
+MD5Sum:
+ 9c4ea3612acceb61bb814adfced57013             1207 Packages
+ 1fa15609c71c88da97e7f55d3375a7ac              767 Packages.gz
+ 4c1d86ddcae738703bb26813c6cbd717               38 Release
+SHA1:
+ a2882a8aeaa9409018235fa7e34445d7aea5fe70             1207 Packages
+ 2ca12f0ed77643867b22df5fff1253ccbcaa9895              767 Packages.gz
+ 95eaaf9becf9506fd04752efb9ce80a458593c63               38 Release
+SHA256:
+ 933111a78f24f9681247ff1ece84997c6125f0c914269e144505bf24bb67310e             1207 Packages
+ 263f350500db525c7efa861e91d567a0f686bab5326d7db66874df760e38e9bd              767 Packages.gz
+ e308464f4d886cf414f673a3e98f9a446ff2f9c56bee9cf895fd1e9825ec9491               38 Release
+SHA512:
+ 56156f6770a9379dc96193bf180909e51bef20e5054c1a7e4d9e3f20d6880bf8bb18551606558ccc203ec8340fa798f704e07be8a43c5529cc46714d91867849             1207 Packages
+ 8a537ffde1eca4861edf0142b6a1afd25c5aac9f1b3502e0afe321db2ed7f018c08f36dfd2b6e8aeffc055729184ecd71ea25431640cd7b5a04f48423140f65e              767 Packages.gz
+ c379d31df3b1c1319b1719609a5eaab7981574a3bb6096f50398eb390f72026a8344e25d2f8f2988cbc17f09717c40c4f8fbbb144868dabb764392afdb285aa1               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQBLCUk0DD83ixQVNmLT/RBFd0dagUCYnyuEQAKCRCLT/RBFd0d
+and4AP4lIcsB1FJKuXQGLZE8jDWsja39GNonCh9O5Fh4QyNV/wEA4tiI3YqLIb9R
+5jklwriPLM7IIBfVKoan4ecZYRpjvg0=
+=HaFb
+-----END PGP SIGNATURE-----

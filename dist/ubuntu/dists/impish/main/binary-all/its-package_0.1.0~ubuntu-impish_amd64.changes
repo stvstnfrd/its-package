@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 12 May 2022 00:49:47 -0600
+Source: its-package
+Binary: its-package
+Built-For-Profiles: noudeb
+Architecture: all
+Version: 0.1.0~ubuntu-impish
+Distribution: unstable
+Urgency: low
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Changed-By: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Description:
+ its-package - This is a meta-package to automate my local system installs.
+Changes:
+ its-package (0.1.0~ubuntu-impish) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ bb61e5c1fbc82a87df2bad1bfadb24bedea3cde1 2772 its-package_0.1.0~ubuntu-impish_all.deb
+ 0731db402c724dc245821e635369f5f7f6cbff37 5756 its-package_0.1.0~ubuntu-impish_amd64.buildinfo
+Checksums-Sha256:
+ ec2743ec525916a03cef2e5cf93641227f236cecc5128d2118d82cb9e3407038 2772 its-package_0.1.0~ubuntu-impish_all.deb
+ dc2e012af45b9813bd01a125666b287f2650de4cb38f24ad9c93317d1f821d0b 5756 its-package_0.1.0~ubuntu-impish_amd64.buildinfo
+Files:
+ 1b209cafd9df2a641b62d1e5a96caafe 2772 misc optional its-package_0.1.0~ubuntu-impish_all.deb
+ d40ec5fba42104ce4d20704ff9db2b8c 5756 misc optional its-package_0.1.0~ubuntu-impish_amd64.buildinfo

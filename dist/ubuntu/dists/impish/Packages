@@ -1,0 +1,18 @@
+Package: its-package
+Version: 0.1.0~ubuntu-impish
+Architecture: all
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 10
+Depends: apg, bash, bash-completion, bc, build-essential, coreutils, cowsay, curl, dash, exa, figlet, findutils, fortune, fzf, git, gnupg, graphviz, grep, gron, htop, jq, less, lsb-core, lynx, man, mutt, neofetch, netcat, newsboat, nodejs, pandoc, pass, playerctl, python3.10, qrencode, ranger, sbcl, sed, screen, shellcheck, sqlite, stow, sudo, tmux, tree, vim, watch, wget, whois, xz-utils, zsh
+Recommends: brightnessctl, bsdgames, claws-mail, claws-mail-doc, claws-mail-tools, cmatrix, cmus, dmenu, exfat-fuse, exfat-utils, firejail, i3, i3lock, i3status, openssh-server, py3status, rsync, sox, ufw, v4l2loopback-dkms, v4l2loopback-utils, vlc, xcape, xclip
+Filename: ./main/binary-all/its-package_0.1.0~ubuntu-impish_all.deb
+Size: 2772
+MD5sum: 1b209cafd9df2a641b62d1e5a96caafe
+SHA1: bb61e5c1fbc82a87df2bad1bfadb24bedea3cde1
+SHA256: ec2743ec525916a03cef2e5cf93641227f236cecc5128d2118d82cb9e3407038
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package to automate my local system installs.
+

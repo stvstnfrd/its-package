@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 12 May 2022 00:49:49 -0600
+Source: its-package
+Binary: its-package
+Built-For-Profiles: noudeb
+Architecture: all
+Version: 0.1.0~ubuntu-jammy
+Distribution: unstable
+Urgency: low
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Changed-By: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Description:
+ its-package - This is a meta-package to automate my local system installs.
+Changes:
+ its-package (0.1.0~ubuntu-jammy) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ 747dfa5c8a4ff595c3987d19f049ec7f886edf30 2760 its-package_0.1.0~ubuntu-jammy_all.deb
+ ca3e7a186cd1f8b044916ac162065e459c7d0b42 5752 its-package_0.1.0~ubuntu-jammy_amd64.buildinfo
+Checksums-Sha256:
+ 7618a8c4be6f50d2a5f43f61041bfc5e30e1259bc8ec95614c1e9da28a46c378 2760 its-package_0.1.0~ubuntu-jammy_all.deb
+ dd707f37a7bb17ad30c05feabb04c90722e50ff91a1b3e34d0e3606583d028a5 5752 its-package_0.1.0~ubuntu-jammy_amd64.buildinfo
+Files:
+ 49b78800879d197d7f6368d3c4eb6427 2760 misc optional its-package_0.1.0~ubuntu-jammy_all.deb
+ 28471f69bf6766d2da26642cfea9414d 5752 misc optional its-package_0.1.0~ubuntu-jammy_amd64.buildinfo

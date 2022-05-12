@@ -1,0 +1,2 @@
+deb [signed-by=/usr/local/share/keyrings/its-package.gpg] https://raw.githubusercontent.com/stvstnfrd/its-package/master/dist/ubuntu/bionic/dists/bionic ./
+deb [arch= signed-by=/usr/local/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu/bionic dists/bionic stable

@@ -1,0 +1,18 @@
+Package: its-package
+Version: 0.1.0~ubuntu-jammy
+Architecture: all
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 10
+Depends: apg, bash, bash-completion, bc, build-essential, coreutils, cowsay, curl, dash, exa, figlet, findutils, fortune, fzf, git, gnupg, graphviz, grep, gron, htop, jq, less, lsb-core, lynx, man, mutt, neofetch, netcat, newsboat, nodejs, pandoc, pass, playerctl, python3.10, qrencode, ranger, sbcl, sed, screen, shellcheck, sqlite, stow, sudo, tmux, tree, vim, watch, wget, whois, xz-utils, zsh
+Recommends: brightnessctl, bsdgames, claws-mail, claws-mail-doc, claws-mail-tools, cmatrix, cmus, dmenu, exfat-fuse, exfat-utils, firejail, i3, i3lock, i3status, openssh-server, py3status, rsync, sox, ufw, v4l2loopback-dkms, v4l2loopback-utils, vlc, xcape, xclip
+Filename: ./main/binary-all/its-package_0.1.0~ubuntu-jammy_all.deb
+Size: 2760
+MD5sum: 49b78800879d197d7f6368d3c4eb6427
+SHA1: 747dfa5c8a4ff595c3987d19f049ec7f886edf30
+SHA256: 7618a8c4be6f50d2a5f43f61041bfc5e30e1259bc8ec95614c1e9da28a46c378
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package to automate my local system installs.
+

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 12 May 2022 00:49:37 -0600
+Source: its-package
+Binary: its-package
+Built-For-Profiles: noudeb
+Architecture: all
+Version: 0.1.0~debian-bullseye
+Distribution: unstable
+Urgency: low
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Changed-By: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Description:
+ its-package - This is a meta-package to automate my local system installs.
+Changes:
+ its-package (0.1.0~debian-bullseye) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ fc1ada0fbb46e14621820a9376e13c0a0233299d 2744 its-package_0.1.0~debian-bullseye_all.deb
+ 8f43fc4807999da2bca765c630ba42633ac327f6 5764 its-package_0.1.0~debian-bullseye_amd64.buildinfo
+Checksums-Sha256:
+ 5e4512fcda6723d603118f6debec6867c08aa45ebbaae9ab2b9bbc7112bc1678 2744 its-package_0.1.0~debian-bullseye_all.deb
+ 90db1a2120c572d6a02fdea9f919910a5df0d5b7b2d3838c0ecf58e4de301aa8 5764 its-package_0.1.0~debian-bullseye_amd64.buildinfo
+Files:
+ c4626378c6119bac1f886880cdced42a 2744 misc optional its-package_0.1.0~debian-bullseye_all.deb
+ 8a318cc1b535e5bad8b50000c8950f9a 5764 misc optional its-package_0.1.0~debian-bullseye_amd64.buildinfo

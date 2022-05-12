@@ -1,8 +1,8 @@
 #!/usr/bin/make -f
 
 PACKAGE_NAME=its-package
-DEB_DISTROS=$(wildcard src/debian/*) $(wildcard src/ubuntu/*)
-DEB_CFGS=$(addsuffix /package.cfg,$(DEB_DISTROS))
+DEB_DISTROS=$(wildcard src/debian/dists/*) $(wildcard src/ubuntu/dists/*)
+DEB_CFGS=$(wildcard src/*/dists/*/*/*/*)
 CURRENT_VERSION=$(shell \
 	grep '^Version:' etc/package.cfg \
 	| sed 's/^.*: *//' \
@@ -43,7 +43,8 @@ SOURCES_LISTS=$(addsuffix /Source.list,$(subst src/,dist/,$(DEB_DISTROS)))
 $(SOURCES_LISTS):
 	ID="$$(echo "$(@D)" | sed 's@^dist/\([^/]\+\)/\([^/]\+\)@\1@')"; \
 	CODENAME="$$(echo "$(@D)" | sed 's@^dist/\([^/]\+\)/\([^/]\+\)@\2@')"; \
-	cd "$(@D)" && echo "deb [signed-by=/usr/local/share/keyrings/$(PACKAGE_NAME).gpg] https://raw.githubusercontent.com/stvstnfrd/$(PACKAGE_NAME)/master/dist/$${ID}/$${CODENAME} ./" > Source.list
+	( cd "$(@D)" && echo "deb [signed-by=/usr/local/share/keyrings/$(PACKAGE_NAME).gpg] https://raw.githubusercontent.com/stvstnfrd/$(PACKAGE_NAME)/master/dist/$${ID}/$${CODENAME} ./" > Source.list ); \
+	cd "$(@D)" && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/local/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/$${ID} $${CODENAME} stable" >> Source.list
 
 BOOTSTRAPS=$(addsuffix /Bootstrap.sh,$(subst src/,dist/,$(DEB_DISTROS)))
 %/Bootstrap.sh: %/Key.gpg bin/bootstrap.sh
@@ -74,43 +75,47 @@ etc/Key.gpg:  ## (re)create the public signing key
 	fi \
 	;
 
-# TODO: Clean this up
-dist/%/$(PACKAGE_NAME)_$(CURRENT_VERSION)~debian-bullseye_all.deb: src/%/package.cfg
-dist/%/$(PACKAGE_NAME)_$(CURRENT_VERSION)~debian-buster_all.deb: src/%/package.cfg
-dist/%/$(PACKAGE_NAME)_$(CURRENT_VERSION)~debian-sid_all.deb: src/%/package.cfg
-dist/%/$(PACKAGE_NAME)_$(CURRENT_VERSION)~ubuntu-bionic_all.deb: src/%/package.cfg
-dist/%/$(PACKAGE_NAME)_$(CURRENT_VERSION)~ubuntu-impish_all.deb: src/%/package.cfg
-dist/%/$(PACKAGE_NAME)_$(CURRENT_VERSION)~ubuntu-jammy_all.deb: src/%/package.cfg
-ALL_DEBS:=$(ALL_DEBS) dist/debian/bullseye/$(PACKAGE_NAME)_$(CURRENT_VERSION)~debian-bullseye_all.deb
-ALL_DEBS:=$(ALL_DEBS) dist/debian/buster/$(PACKAGE_NAME)_$(CURRENT_VERSION)~debian-buster_all.deb
-ALL_DEBS:=$(ALL_DEBS) dist/debian/sid/$(PACKAGE_NAME)_$(CURRENT_VERSION)~debian-sid_all.deb
-ALL_DEBS:=$(ALL_DEBS) dist/ubuntu/bionic/$(PACKAGE_NAME)_$(CURRENT_VERSION)~ubuntu-bionic_all.deb
-ALL_DEBS:=$(ALL_DEBS) dist/ubuntu/impish/$(PACKAGE_NAME)_$(CURRENT_VERSION)~ubuntu-impish_all.deb
-ALL_DEBS:=$(ALL_DEBS) dist/ubuntu/jammy/$(PACKAGE_NAME)_$(CURRENT_VERSION)~ubuntu-jammy_all.deb
+ALL_DEBS=$(shell \
+	for i in src/*/dists/*/*/*/*.cfg; do \
+		version="$$( \
+			git log --reverse -- "$${i}" \
+			| bin/conventional-commits-to-semantic-version \
+			| tail \
+			| cut -f1 \
+		)"; \
+		arch="$$(basename "$$(dirname "$${i}")" | cut -d'-' -f2)"; \
+		package_name="$$(basename "$${i}" | sed 's/\.cfg$$//')"; \
+		grep '^Version:' $$i \
+		| sed \
+			-e "s@^Version:.*~@$${package_name}_$${version}~@" \
+			-e "s@\$$@_$${arch}.deb@" \
+			-e "s@^@dist/$$(dirname "$${i}")/@" \
+			-e "s@^dist/src/@dist/@" \
+		; \
+		echo "${i}"; \
+	done \
+)
 
-$(ALL_DEBS):
-	test -d "$(@D)" || mkdir -p "$(@D)"
-	cd "$(@D)" && equivs-build "../../../$(dir $(subst dist,src,$(@)))package.cfg"
+define GEN_RULE
+$1: $2$3.cfg
+	test -d "$$(@D)" || mkdir -p "$$(@D)"
+	config="$$(subst dist/,src/,$$(@D))/$$(shell echo "$$(@F)" | sed 's/^\([^_]\+\).*/\1/').cfg"; \
+	cd "$$(@D)" \
+	&& pwd \
+	&& equivs-build "../../../../../../$$$${config}"
+endef
 
-etc/package.cfg: etc/packages.tsv bin/apt.mk  ## Rebuild the base deb package cfg
-	package_version="$$( \
+$(foreach deb,$(ALL_DEBS),$(eval $(call GEN_RULE,$(deb),$(dir $(subst dist/,src/,$(deb))),$(shell echo "$(basename $(notdir $(deb)))" | sed 's/^\([^_]\+\).*$$/\1/'))))
+
+$(DEB_CFGS): etc/packages.tsv
+	@package_version="$$( \
 		git log --oneline -- "$(<)" \
 		| ./bin/conventional-commits-to-semantic-version \
 		| tail -1 \
 		| awk '{ print $$1 }' \
 	)"; \
 	package_version="$${package_version:-0.0.0}"; \
-	sed "s/^Version:.*\$$/Version: $${package_version}/" "$(@)" \
-	>'$(@).new'; \
-	if [ "$(CURRENT_VERSION)" != "$${package_version}" ]; \
-	then \
-		mv '$(@).new' '$(@)'; \
-	else \
-		rm '$(@).new'; \
-	fi
-
-$(DEB_CFGS): etc/packages.tsv etc/package.cfg  ## Build the deb cfgs
-	@get_column() { \
+	get_column() { \
 		cat "$${1}" \
 			| grep "^$${2}	" \
 			| sed "s/^$${2}	//" \
@@ -120,9 +125,9 @@ $(DEB_CFGS): etc/packages.tsv etc/package.cfg  ## Build the deb cfgs
 			| tr ' ' ',' \
 		; \
 	} ; \
-	basename=$(subst /package,,$(subst src/,,$(basename $(@)))); \
-	os="$$(echo "$${basename}" | cut -d'/' -f1)"; \
-	version="$$(echo "$${basename}" | cut -d'/' -f2)"; \
+	basename="$$(grep '^Version:' "$(@)" | sed 's/^.*~//')"; \
+	os="$$(echo "$${basename}" | cut -d'-' -f1)"; \
+	version="$$(echo "$${basename}" | cut -d'-' -f2)"; \
 	ini_column=1; \
 	if [ "$${version}" = 'impish' ]; then ini_column=2; fi ; \
 	if [ "$${version}" = 'jammy' ]; then ini_column=2; fi ; \
@@ -134,11 +139,11 @@ $(DEB_CFGS): etc/packages.tsv etc/package.cfg  ## Build the deb cfgs
 	should_packages="$$(get_column $(<) SHOULD $${ini_column})"; \
 	may_packages="$$(get_column $(<) MAY $${ini_column})"; \
 	sed \
+		-i \
 		-e "s/^Depends:.*$$/Depends: $${shall_packages}/" \
 		-e "s/^Recommends:.*$$/Recommends: $${should_packages}/" \
 		-e "s/^Suggests:.*$$/Suggests: $${may_packages}/" \
-		-e "s/^Version:.*$$/&~$${os}-$${version}/" \
-		etc/package.cfg \
-		>"$(@)" \
+		-e "s/^Version:.\([^~]*\)~/Version: $${package_version}~/" \
+		"$(@)" \
 	;
 	@echo "Rebuilt: $(@)"
