@@ -25,6 +25,6 @@ $2 ~ /^[a-z]+(\([^)]+\))?!:/ {
     PATCH=0
 }
 # $2 ~ /^[Mm]erge/ {
-{
-    printf "%s.%s.%s	%s\n",MAJOR,MINOR,PATCH,$0
+END {
+    printf "%s.%s.%s\n",MAJOR,MINOR,PATCH
 }

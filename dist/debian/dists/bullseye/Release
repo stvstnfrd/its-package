@@ -1,0 +1,31 @@
+Title: Its The Simple (meta) Package
+Origin: https://raw.githubusercontent.com/stvstnfrd/its-package/master/dist/debian/dists/bullseye
+Suite: stable
+Codename: bullseye
+Components: main
+Architectures: all
+Date: Tue, 28 Mar 2023 04:26:32 +0000
+MD5Sum:
+ d66dd662e82b1fb4e1fe8ef8725da6b7              242 Release
+ a23ab25866a67624c7c45cad75842297              175 main/Contents-all
+ 0de0b710e01f81e7c4ad931a1f0d4722               97 main/Contents-all.gz
+ 7019c12988cf6564509d8ca84dbb2da8             1328 main/binary-all/Packages
+ 49acb843042720cf4d254156f566ba23              842 main/binary-all/Packages.gz
+SHA1:
+ 4c6fa4653609664421b926ecd3d6fdb996026e31              242 Release
+ ea5c843bc04c950a84fbb2278e3bf3994b0eb19d              175 main/Contents-all
+ ec53b9d7d9ff0e76135ea781a67c373c6c7c9a1c               97 main/Contents-all.gz
+ 3dcdb9f762bf27eaeb725ca918272958107323c0             1328 main/binary-all/Packages
+ 7d54bd4ef679be90dc0fbd99814ddcf1770a0707              842 main/binary-all/Packages.gz
+SHA256:
+ c3f964a82baf662e44a75bd9f52d8d444f64dd9c5b69fb2ac99f29f010b560ee              242 Release
+ ebe06c0320677bf0890262e959596b8fbfb4f37039c76c1a6c3d1a4040aee217              175 main/Contents-all
+ 1fc46b5f16cdb86c0af47b03a9be6ad7bcd538d83e77ec9f017878e31ce904b0               97 main/Contents-all.gz
+ 0fb08666495c80c6aa108bbd39cbcc26275877aae6cbdae8d40fff592e060614             1328 main/binary-all/Packages
+ fffed5046f7dea64eec30c317578a733a41514aeba94bbd264fa06f2102f216b              842 main/binary-all/Packages.gz
+SHA512:
+ 191936badb8fb0c27c94485f37471692b01421c721a58c61100c426163a285359b37f7ffbd10daadc2e75ab2e5e02a06844b6956273a0691d5ed1b620bf766f6              242 Release
+ 1ba02f4827f536760fb8795e25b0267f8716f8306751455f241a63097f7978159d82c60cc3c723169e0d5fcc71c96ee3c356ef0ed23c43c17965f150960936da              175 main/Contents-all
+ 4eff8c3b90bfb0d26427fb7586cb978673c63888baae223d279caa7c0a45533961449c78794444951c09ab83fd7db152260913b555f5ff92e0d7386fb371ecfe               97 main/Contents-all.gz
+ 896580d346ed9e80786e3804c2ebfaa9d873582d4fde96c2cc4079d3f28ac9eb831f83ec410bb11ecae8841fe5393e707c9ec59d237246307bf1581b795b9421             1328 main/binary-all/Packages
+ 88a0a150ec7e91b337132952166c015a128aeab4cbbddaef2ce10a1cf924cf7dc1422f2117a4e6f9fea3fab41e46892aafbf626e2c2c95a4b96131d66b8465d5              842 main/binary-all/Packages.gz

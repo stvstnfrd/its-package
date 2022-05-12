@@ -1,0 +1,20 @@
+Package: its-package
+Architecture: all
+Version: 1.0.0-1.ubuntu2004.1
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 10
+Depends: apg, bash, bash-completion, bc, build-essential, coreutils, cowsay, curl, dash, figlet, findutils, fortune, fzf, git, gnupg, graphviz, grep, gron, htop, jq, less, lsb-core, lynx, man, mutt, neofetch, netcat, newsboat, nodejs, pandoc, pass, playerctl, python3.8, qrencode, ranger, sbcl, sed, screen, shellcheck, sqlite, stow, sudo, tmux, tree, vim, watch, wget, whois, xz-utils, zsh
+Recommends: brightnessctl, bsdgames, claws-mail, claws-mail-doc, claws-mail-tools, cmatrix, cmus, dmenu, exfat-fuse, exfat-utils, firejail, i3, i3lock, i3status, openssh-server, py3status, rsync, sox, ufw, v4l2loopback-dkms, v4l2loopback-utils, vlc, xcape, xclip
+Suggests: vagrant
+Filename: pool/focal/main/i/its-package/its-package_1.0.0-1.ubuntu2004.1_all.deb
+Size: 2872
+MD5sum: d51d0bb01d5a7b16724396755b485300
+SHA1: 12c08334bf0ca5fc2c2ad0d27b4510fd4db0d60c
+SHA256: ac6b382f6e005114f9fb726fd3c6389ac81c38a94c95a09cc8b5a1d6d739cba1
+SHA512: 969b1198611b437db7e953baeeea0be3f5e09ee4308f9cab26e0e600956dc834234bc618c734e8e53596509c83389ea995da830e1258a8f4398c48a53b6baca5
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package to automate my local system installs.
+

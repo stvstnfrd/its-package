@@ -1,0 +1,20 @@
+Package: its-package
+Architecture: all
+Version: 1.0.0-1.debian09.1
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 10
+Depends: apg, bash, bash-completion, bc, build-essential, coreutils, cowsay, curl, dash, figlet, findutils, fortune, git, gnupg, graphviz, grep, htop, jq, less, lsb-base, lsb-release, lynx, man, mutt, neofetch, netcat, nodejs, pandoc, pass, python3.5, qrencode, ranger, sbcl, sed, screen, shellcheck, sqlite, stow, sudo, tmux, tree, vim, watch, wget, whois, xz-utils, zsh
+Recommends: brightnessctl, bsdgames, claws-mail, claws-mail-doc, claws-mail-tools, cmatrix, cmus, dmenu, exfat-fuse, exfat-utils, firejail, i3, i3lock, i3status, openssh-server, py3status, rsync, sox, ufw, vlc, xcape, xclip
+Suggests: vagrant
+Filename: pool/stretch/main/i/its-package/its-package_1.0.0-1.debian09.1_all.deb
+Size: 2822
+MD5sum: a458a0d722c972da46ad3e31c906f758
+SHA1: e183bbc327ed26c1155fc7857164cde4bb9a1807
+SHA256: 70f2f22f7e9af9ee363b9405b1f7d89deb96ec262013d793b3998a3e20e63103
+SHA512: 5588b739f325ebb8149aecb60a81cd1734bb914b80d68a24308a1065488fbbcfef2542f0ff450e9e858c4a33c49f151fe0f5bb35731095db2fa9c1fcbc3cf06a
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package to automate my local system installs.
+

@@ -1,1 +1,3 @@
 bin/secret.mk
+*.changes
+*.buildinfo

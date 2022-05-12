@@ -1,0 +1,31 @@
+Title: Its The Simple (meta) Package
+Origin: https://raw.githubusercontent.com/stvstnfrd/its-package/master/dist/apt/dists/jammy
+Suite: stable
+Codename: jammy
+Components: main
+Architectures: all
+Date: Tue, 28 Mar 2023 04:00:07 +0000
+MD5Sum:
+ 41d2c83eb70e1b35bcb64660a2d6e576              233 Release
+ a23ab25866a67624c7c45cad75842297              175 main/Contents-all
+ c3bcb6ca9ed240617979f75248189953               97 main/Contents-all.gz
+ a89fb445e19df81f5104f715c2807ec5             1382 main/binary-all/Packages
+ 7bb4351cba906f528196e1b9f07b33dd              869 main/binary-all/Packages.gz
+SHA1:
+ 8d9bd680341f4f77384e64fe2e53bf44b6e5c45f              233 Release
+ ea5c843bc04c950a84fbb2278e3bf3994b0eb19d              175 main/Contents-all
+ b4e5725bd415043ecdef22442cb4ec10f5348312               97 main/Contents-all.gz
+ e2a11256e70d77055de3ca46cf1ef2d82f1204b7             1382 main/binary-all/Packages
+ 765398060729d33bf877a95f424441c5e217ecb6              869 main/binary-all/Packages.gz
+SHA256:
+ b9b3c3c00e9f06538128ad3751c3dc933cbd8647974f8458d85bc31daecb870a              233 Release
+ ebe06c0320677bf0890262e959596b8fbfb4f37039c76c1a6c3d1a4040aee217              175 main/Contents-all
+ 94be11f7d8c6be10a7dbfad0222ff621378b471f9f56b36e92f2cafb4532a2c4               97 main/Contents-all.gz
+ 9d8bcb0329c4e1f0f003caea64d63e68199719c3e9c86949ebe5cb70431ba973             1382 main/binary-all/Packages
+ 2d90ec5e5582ae95ae3ceb2c62ab49503aa0bc68ce2c4f8f7b2e9b46283d5265              869 main/binary-all/Packages.gz
+SHA512:
+ 617e68c548532989f1ceb080a8569e0385fbb9e8bb4cb51be7211671df69b8c93eb7242656791564d96dc09bcb30a7d5d34db4394caabcf2c2a39a05adbac690              233 Release
+ 1ba02f4827f536760fb8795e25b0267f8716f8306751455f241a63097f7978159d82c60cc3c723169e0d5fcc71c96ee3c356ef0ed23c43c17965f150960936da              175 main/Contents-all
+ ae5adcd1547cd5db1dd838d4b907189f33f8a60d057c4bc652c51aadffbe255e1f17315daf3ba91c1748d3235a1b97358d65ea2a04d0c942d382035f0c056d22               97 main/Contents-all.gz
+ b088a2e81c9d371822f4f45cb44aa8fa66785a8f60a74554a30f29a950643321ae5622819bea2af42195fca9016080d9def6b5a148e928b20e922283facbbc16             1382 main/binary-all/Packages
+ 651c170ecfb84dbcbe9e71b624e7758b0db869423efbdf72abb7ef3f36633c438b9fab04c884dbeefb25ed51187081f8aa63209ac9b66ee53aaea1a58d2099bd              869 main/binary-all/Packages.gz
