@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Thu, 12 May 2022 00:49:44 -0600
+Date: Thu, 12 May 2022 01:10:05 -0600
 Source: its-package
 Binary: its-package
 Built-For-Profiles: noudeb
@@ -16,11 +16,11 @@ Changes:
  .
    * First version
 Checksums-Sha1:
- 54397f1911bb2db8d8705cf135e6c06320657f69 2738 its-package_0.1.0~ubuntu-bionic_all.deb
- e3cdcb91292bf0c6819328310c04acf7f90eebfc 5756 its-package_0.1.0~ubuntu-bionic_amd64.buildinfo
+ c3ffc32a803b1e6566896841dad8fa9111412dd1 2728 its-package_0.1.0~ubuntu-bionic_all.deb
+ 9834d58fe9210b00fda18227ca511972dd484f4d 5756 its-package_0.1.0~ubuntu-bionic_amd64.buildinfo
 Checksums-Sha256:
- 2b0b36cd93f93b87e21e57b6204e75e33a55ea733f59a8d893948c73794bace1 2738 its-package_0.1.0~ubuntu-bionic_all.deb
- d7c228f543f87d0a6e4f1c733401a74eb1ec2cd1a796ae0727e20538f708ac68 5756 its-package_0.1.0~ubuntu-bionic_amd64.buildinfo
+ 6afa738d858ffd839e24bda480aa639de8cebbf9f03431c143d5bc9130b81f3f 2728 its-package_0.1.0~ubuntu-bionic_all.deb
+ 41a397a422e02d39803c87572a74ee92abf65dc35a2d5f1a723a74922c6609d8 5756 its-package_0.1.0~ubuntu-bionic_amd64.buildinfo
 Files:
- 19e2acd91fa18a9cbe722d7750df233c 2738 misc optional its-package_0.1.0~ubuntu-bionic_all.deb
- 1371fb37f42765b589148a56f51eeef8 5756 misc optional its-package_0.1.0~ubuntu-bionic_amd64.buildinfo
+ aed23ed41eb6d8d23aa3863a92db2ff7 2728 misc optional its-package_0.1.0~ubuntu-bionic_all.deb
+ ddb7856eafa7b3d438deb8db74674172 5756 misc optional its-package_0.1.0~ubuntu-bionic_amd64.buildinfo

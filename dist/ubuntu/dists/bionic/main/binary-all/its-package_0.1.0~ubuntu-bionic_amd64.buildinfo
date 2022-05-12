@@ -4,14 +4,14 @@ Binary: its-package
 Architecture: all
 Version: 0.1.0~ubuntu-bionic
 Checksums-Md5:
- 19e2acd91fa18a9cbe722d7750df233c 2738 its-package_0.1.0~ubuntu-bionic_all.deb
+ aed23ed41eb6d8d23aa3863a92db2ff7 2728 its-package_0.1.0~ubuntu-bionic_all.deb
 Checksums-Sha1:
- 54397f1911bb2db8d8705cf135e6c06320657f69 2738 its-package_0.1.0~ubuntu-bionic_all.deb
+ c3ffc32a803b1e6566896841dad8fa9111412dd1 2728 its-package_0.1.0~ubuntu-bionic_all.deb
 Checksums-Sha256:
- 2b0b36cd93f93b87e21e57b6204e75e33a55ea733f59a8d893948c73794bace1 2738 its-package_0.1.0~ubuntu-bionic_all.deb
+ 6afa738d858ffd839e24bda480aa639de8cebbf9f03431c143d5bc9130b81f3f 2728 its-package_0.1.0~ubuntu-bionic_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 12 May 2022 00:49:46 -0600
+Build-Date: Thu, 12 May 2022 01:10:06 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-programs
@@ -182,4 +182,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG=""
  MAKEFLAGS="w"
- SOURCE_DATE_EPOCH="1652338184"
+ SOURCE_DATE_EPOCH="1652339405"

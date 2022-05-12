@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Thu, 12 May 2022 00:49:47 -0600
+Date: Thu, 12 May 2022 01:10:07 -0600
 Source: its-package
 Binary: its-package
 Built-For-Profiles: noudeb
@@ -16,11 +16,11 @@ Changes:
  .
    * First version
 Checksums-Sha1:
- bb61e5c1fbc82a87df2bad1bfadb24bedea3cde1 2772 its-package_0.1.0~ubuntu-impish_all.deb
- 0731db402c724dc245821e635369f5f7f6cbff37 5756 its-package_0.1.0~ubuntu-impish_amd64.buildinfo
+ 3e433be2de2e18818a93a1ed74a8b4148996cfb0 2766 its-package_0.1.0~ubuntu-impish_all.deb
+ 4b7732b2d2a8212807ad2c674126b4d918ab8712 5756 its-package_0.1.0~ubuntu-impish_amd64.buildinfo
 Checksums-Sha256:
- ec2743ec525916a03cef2e5cf93641227f236cecc5128d2118d82cb9e3407038 2772 its-package_0.1.0~ubuntu-impish_all.deb
- dc2e012af45b9813bd01a125666b287f2650de4cb38f24ad9c93317d1f821d0b 5756 its-package_0.1.0~ubuntu-impish_amd64.buildinfo
+ 63dba654880185b5ce95f44367afcea541cbb49607c234c1740be9181fa52de6 2766 its-package_0.1.0~ubuntu-impish_all.deb
+ 78c239dd333563a5597d6ed58e45c335e8f4ce2593a17db496268df3c9b72647 5756 its-package_0.1.0~ubuntu-impish_amd64.buildinfo
 Files:
- 1b209cafd9df2a641b62d1e5a96caafe 2772 misc optional its-package_0.1.0~ubuntu-impish_all.deb
- d40ec5fba42104ce4d20704ff9db2b8c 5756 misc optional its-package_0.1.0~ubuntu-impish_amd64.buildinfo
+ 8fc1f145faa3fca1353dafe159412ff5 2766 misc optional its-package_0.1.0~ubuntu-impish_all.deb
+ cdfc8957f3fd3a0bc7e63ef507319af5 5756 misc optional its-package_0.1.0~ubuntu-impish_amd64.buildinfo

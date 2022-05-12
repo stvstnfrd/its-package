@@ -46,7 +46,7 @@ sudo apt-get install --yes apt-transport-https ca-certificates
 test -d "${PATH_KEYRINGS}" \
 || sudo mkdir "${PATH_KEYRINGS}" \
 ;
-echo "deb [signed-by=/usr/local/share/keyrings/${PACKAGE_NAME}.gpg] https://raw.githubusercontent.com/stvstnfrd/${PACKAGE_NAME}/master/dist/${ID}/${VERSION_CODENAME} ./" \
+echo "deb [signed-by=/usr/local/share/keyrings/${PACKAGE_NAME}.gpg] https://raw.githubusercontent.com/stvstnfrd/${PACKAGE_NAME}/master/dist/${ID} ${VERSION_CODENAME} main" \
 | sudo tee "/etc/apt/sources.list.d/${PACKAGE_NAME}.list"
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/local/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/${ID} ${VERSION_CODENAME} stable" \
 | sudo tee "/etc/apt/sources.list.d/docker.list"

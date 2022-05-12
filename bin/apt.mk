@@ -43,8 +43,9 @@ SOURCES_LISTS=$(addsuffix /Source.list,$(subst src/,dist/,$(DEB_DISTROS)))
 $(SOURCES_LISTS):
 	ID="$$(echo "$(@D)" | sed 's@^dist/\([^/]\+\)/\([^/]\+\)@\1@')"; \
 	CODENAME="$$(echo "$(@D)" | sed 's@^dist/\([^/]\+\)/\([^/]\+\)@\2@')"; \
-	( cd "$(@D)" && echo "deb [signed-by=/usr/local/share/keyrings/$(PACKAGE_NAME).gpg] https://raw.githubusercontent.com/stvstnfrd/$(PACKAGE_NAME)/master/dist/$${ID}/$${CODENAME} ./" > Source.list ); \
-	cd "$(@D)" && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/local/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/$${ID} $${CODENAME} stable" >> Source.list
+	cd "$(@D)"; \
+	echo "deb [signed-by=/usr/local/share/keyrings/$(PACKAGE_NAME).gpg] https://raw.githubusercontent.com/stvstnfrd/$(PACKAGE_NAME)/master/dist/$${ID}/ $${CODENAME} main" > Source.list; \
+	echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/local/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/$${ID} $${CODENAME} stable" >> Source.list
 
 BOOTSTRAPS=$(addsuffix /Bootstrap.sh,$(subst src/,dist/,$(DEB_DISTROS)))
 %/Bootstrap.sh: %/Key.gpg bin/bootstrap.sh
@@ -87,7 +88,7 @@ ALL_DEBS=$(shell \
 		package_name="$$(basename "$${i}" | sed 's/\.cfg$$//')"; \
 		grep '^Version:' $$i \
 		| sed \
-			-e "s@^Version:.*~@$${package_name}_$${version}~@" \
+			-e "s/^Version:.*~/$${package_name}_\$${version}~/" \
 			-e "s@\$$@_$${arch}.deb@" \
 			-e "s@^@dist/$$(dirname "$${i}")/@" \
 			-e "s@^dist/src/@dist/@" \

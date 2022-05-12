@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Thu, 12 May 2022 00:49:40 -0600
+Date: Thu, 12 May 2022 01:10:00 -0600
 Source: its-package
 Binary: its-package
 Built-For-Profiles: noudeb
@@ -16,11 +16,11 @@ Changes:
  .
    * First version
 Checksums-Sha1:
- 6dab9dcb5c341b0ff0288f43010e25d385de1b8f 2730 its-package_0.1.0~debian-buster_all.deb
- 8e55fafd8f8587d1519dde62978878100b4c18b6 5756 its-package_0.1.0~debian-buster_amd64.buildinfo
+ 22c480d0be0944e6616e61291a01aab0e92ed0b7 2736 its-package_0.1.0~debian-buster_all.deb
+ 3528e56a6e817d12f05193c1f61de2a56eb8aede 5756 its-package_0.1.0~debian-buster_amd64.buildinfo
 Checksums-Sha256:
- 50b39b35041c3e4f073e1c0d1f4b6f2f03cddc84c903ae85db5f3b17533f8183 2730 its-package_0.1.0~debian-buster_all.deb
- b3803b7cde79715f8464f809a9321f4b3e4e9913cd74b4879d8517725ec1172d 5756 its-package_0.1.0~debian-buster_amd64.buildinfo
+ c15db95b11c76999a6ccc985f0e9708000c94d09171fe65216fa530a5fd59e93 2736 its-package_0.1.0~debian-buster_all.deb
+ 66379637d47d867e1f5c5136c78d1dcd8420011af96294b066cb4bec2c0ffaaa 5756 its-package_0.1.0~debian-buster_amd64.buildinfo
 Files:
- 1f0f31c36f64c4b0431a020cb92221ec 2730 misc optional its-package_0.1.0~debian-buster_all.deb
- 1ff161b3bb4271bda2d3730bf1efb54e 5756 misc optional its-package_0.1.0~debian-buster_amd64.buildinfo
+ 4d0157cc3e60f911368b35927663bc9d 2736 misc optional its-package_0.1.0~debian-buster_all.deb
+ 86759db64a4bc9b3625f3f600be02fa1 5756 misc optional its-package_0.1.0~debian-buster_amd64.buildinfo

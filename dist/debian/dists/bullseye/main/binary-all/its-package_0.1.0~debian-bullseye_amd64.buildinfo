@@ -4,14 +4,14 @@ Binary: its-package
 Architecture: all
 Version: 0.1.0~debian-bullseye
 Checksums-Md5:
- c4626378c6119bac1f886880cdced42a 2744 its-package_0.1.0~debian-bullseye_all.deb
+ 893ef9148456637c7135bf987dad9d72 2736 its-package_0.1.0~debian-bullseye_all.deb
 Checksums-Sha1:
- fc1ada0fbb46e14621820a9376e13c0a0233299d 2744 its-package_0.1.0~debian-bullseye_all.deb
+ 749d700fd19cfb28735893ddbbd44cf109be9354 2736 its-package_0.1.0~debian-bullseye_all.deb
 Checksums-Sha256:
- 5e4512fcda6723d603118f6debec6867c08aa45ebbaae9ab2b9bbc7112bc1678 2744 its-package_0.1.0~debian-bullseye_all.deb
+ f8c34678ee755225bab72b477efc52e81e294c7a41e691b7d22601c9aac97bf1 2736 its-package_0.1.0~debian-bullseye_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 12 May 2022 00:49:39 -0600
+Build-Date: Thu, 12 May 2022 01:10:00 -0600
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-programs
@@ -182,4 +182,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG=""
  MAKEFLAGS="w"
- SOURCE_DATE_EPOCH="1652338177"
+ SOURCE_DATE_EPOCH="1652339398"

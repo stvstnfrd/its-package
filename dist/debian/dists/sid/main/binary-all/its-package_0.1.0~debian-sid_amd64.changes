@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Thu, 12 May 2022 00:49:42 -0600
+Date: Thu, 12 May 2022 01:10:02 -0600
 Source: its-package
 Binary: its-package
 Built-For-Profiles: noudeb
@@ -16,11 +16,11 @@ Changes:
  .
    * First version
 Checksums-Sha1:
- df28cf171b2155792597616b568c36dd6834227e 2756 its-package_0.1.0~debian-sid_all.deb
- 803f43c62078c2909f6e887277f0b72707aae3c3 5744 its-package_0.1.0~debian-sid_amd64.buildinfo
+ 34f6a11041ded8533447fb31b99e41fe97168d69 2772 its-package_0.1.0~debian-sid_all.deb
+ 67b48d47d8c3da6f1bef091fbe7c8300deddac8a 5744 its-package_0.1.0~debian-sid_amd64.buildinfo
 Checksums-Sha256:
- 0c19075a6d0e63e450352f4864fc107892b9d8ee2a62fae5563e48712f48737a 2756 its-package_0.1.0~debian-sid_all.deb
- 517a066e079c11c1bf573e6c465b29dd0312c87a14ad66fa5295e1659c8c7954 5744 its-package_0.1.0~debian-sid_amd64.buildinfo
+ 1013b80c0b5d00869a4e46f98af0afd8284c0e034d8d55c025e8718ac92f1710 2772 its-package_0.1.0~debian-sid_all.deb
+ 27767473e4ac6981826c42f7fc092a89380e7b7665fe167953fca4612c473233 5744 its-package_0.1.0~debian-sid_amd64.buildinfo
 Files:
- 34fea35ec973ee82561a75cbfc1d1e18 2756 misc optional its-package_0.1.0~debian-sid_all.deb
- d620f5a52911d449254f25cbd71dae2f 5744 misc optional its-package_0.1.0~debian-sid_amd64.buildinfo
+ 2e9e22fe5af766f5dadc6bd8ae772d5c 2772 misc optional its-package_0.1.0~debian-sid_all.deb
+ 9bbbfa6e477590e2280a96af4c00f3c4 5744 misc optional its-package_0.1.0~debian-sid_amd64.buildinfo
