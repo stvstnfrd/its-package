@@ -1,6 +1,6 @@
 #!/bin/sh
 set -aeu
-BRANCH=fix/revamp-bootstrap
+BRANCH=master
 # wget -O /tmp/bootstrap.sh https://raw.githubusercontent.com/stvstnfrd/its-package/${BRANCH}/dist/${ID}/${VERSION_CODENAME}/Bootstrap.sh && less /tmp/bootstrap.sh && sh /tmp/bootstrap.sh
 command_exists() {
 	command -v "${1}" >/dev/null 2>&1
