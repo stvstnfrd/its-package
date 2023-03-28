@@ -26,11 +26,65 @@ Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
 Installed-Size: 9
 Depends: docker-ce, docker-ce-cli
 Filename: pool/stretch/main/i/its-package-dev/its-package-dev_1.0.0-1.debian09.1_all.deb
-Size: 2160
-MD5sum: 99ec58e8b09732d31e58bd65b70041ec
-SHA1: bdb88c98ca287e1778e8d82d7acb15f8bc85fa91
-SHA256: 663f5c67bc32be5dc0cd1b65fbdf6328804f289a5fa899dc2c22b9d99ec4412a
-SHA512: e5fea0712dd3ce6b7b38e9549e19bf5db369fa991f13d29c7f745a26bb283d74dd01c21fdc998de98c0bdaea64192f53d57a57a240de130fd8470c7d625c851e
+Size: 2154
+MD5sum: c5a8e8362639503be2fd1fcb45f744c9
+SHA1: d2961cdca6164945e82d63e8ab75ce7d991d42c8
+SHA256: ba166e19b04d9420d7125c613a5d331bb42fb2f1592d2543aae802d6c1e7aeaa
+SHA512: aa806687569d6a744e6e0689282902f0782f138e508477d3c798a975b4beb73f5518a70d0258a2232bf59cce05121fab21ee154f062c51d15bbc34b1d4167e4d
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-gui
+Architecture: all
+Version: 0.0.0-1.debian09.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: i3lock, obs-studio
+Filename: pool/stretch/main/i/its-package-gui/its-package-gui_0.0.0-1.debian09.1_all.deb
+Size: 2166
+MD5sum: 3e56ae934f537d84676a895e641ff4ef
+SHA1: 8163401ce9c22c391709179e13e2c63a8967adb2
+SHA256: cb6ddb414acbc94a326872656a3eaf85548d5c89d9cd6a657872b48fc3a744ca
+SHA512: eef2ff81166ca33229f4e1aed594fa763383c8182e07be959f355a66b592ee4b8c134501fd6be2a396013d858dfd198c83955ec7cd52cc4c7eb51e11b75b78bf
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-gui
+Architecture: all
+Version: 0.1.0-1.debian09.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: i3lock, obs-studio
+Filename: pool/stretch/main/i/its-package-gui/its-package-gui_0.1.0-1.debian09.1_all.deb
+Size: 2156
+MD5sum: bb77b1347ee4a1eaf1f869575ce5e38f
+SHA1: 07afb738c06070f24f57b247705ba057c81c6a9f
+SHA256: e978216f8af0741d068d7328da7d383fcaeaf3901a3e66fc95627b4bffe2cb45
+SHA512: bd911813b87331c4d8e8713093beedca92b6667857c1ea999b970cbd29dd13f06e21dd3549bc67c1cf01cb2cb408b25dfe062e3374eb2ce96ef57d0828f781e4
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-gui
+Architecture: all
+Version: 1.0.0-1.debian09.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: i3lock, obs-studio
+Filename: pool/stretch/main/i/its-package-gui/its-package-gui_1.0.0-1.debian09.1_all.deb
+Size: 2164
+MD5sum: af15188eebfdaf2c58d649d7bab05f3b
+SHA1: bf794bde8316ec16ebdd8dbd2bb62025b073ea6c
+SHA256: 3a6ed93a2f549b0cba6a65ae232e01e92afa655299c38d9d6668c3f6e552403d
+SHA512: d67c3337e14ebb07078e195c4437fd38bc03e7739e023a072da1130b0642bd49255bf1fa84f029b0b116eb30e720d3aa88d4934d68a7e78d1b1e9161901153ef
 Homepage: https://github.com/stvstnfrd
 Description: This is a meta-package of my development utilities.
 

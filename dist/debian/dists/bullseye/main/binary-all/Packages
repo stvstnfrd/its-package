@@ -26,11 +26,65 @@ Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
 Installed-Size: 9
 Depends: docker-ce, docker-ce-cli, docker-compose-plugin, docker-scan-plugin
 Filename: pool/bullseye/main/i/its-package-dev/its-package-dev_1.0.0-1.debian11.1_all.deb
-Size: 2186
-MD5sum: b2f52fc5e2a0f6074bb84c85b588c939
-SHA1: 2ac9c0f153f14ec7b91dee74feb215b3e6153356
-SHA256: 3ca9282061c85d2c0391246755fbd94b54b406883ef8bcc1821738a05ae51944
-SHA512: f944ebefb4d944c6f2180a3e8e89f791a5c79e84619b2499b099c03ff9cdc163e2c4144b5bce279d508d1cbc7044f9ee63f7bcd809344f741cbc6ae92f034a9a
+Size: 2194
+MD5sum: 80e00ece29c0c84690855fc57d223349
+SHA1: 650b87bd0e60e3d3845bbe2fd6a8e1ebc354d588
+SHA256: 212cbcb689bcb02870417b0ad741369a20d258dc6d7ade840cb3ef07aa3257ed
+SHA512: 1c8c75cd88eabe4a29bb639c3b2e023e42bc190d1597b43f1071de6f2a599758fb7f9647f121710e2af6bc2562556992661a2916d1725e5e8ff833c114273c80
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-gui
+Architecture: all
+Version: 0.0.0-1.debian11.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: i3lock, obs-studio
+Filename: pool/bullseye/main/i/its-package-gui/its-package-gui_0.0.0-1.debian11.1_all.deb
+Size: 2154
+MD5sum: 7413500f12a196a6db9ed63670f70340
+SHA1: 50b9b69fdd6297cf4cc8264f944b309cdf173b9a
+SHA256: 9331ac3e6371a535ebaae092bc90c2d52059a53c262aa2644ddd25b36ef88643
+SHA512: 21557b6e0341f5ce744ad81cfc007cd6e8f23828e22748c0d3e9273b89109f3fbf55b1024e24f0749027631f8401765aaa87dde9fc8200e3f962a7ce11864abe
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-gui
+Architecture: all
+Version: 0.1.0-1.debian11.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: i3lock, obs-studio
+Filename: pool/bullseye/main/i/its-package-gui/its-package-gui_0.1.0-1.debian11.1_all.deb
+Size: 2156
+MD5sum: 6b3e8efa5b33a66d1e07a9c4584e6efb
+SHA1: 48b3dcd8f08a2b4cbd553a4b66676ef6e78c88c2
+SHA256: b9907a3bc33db10d53cdd0a8d48b6327b20dd575abb9b2432d2d8ef1409c6246
+SHA512: ca2e465161e2ba4aab525fd5a1c434adfc9cb46acb1b5dd19ffa39d7cd57d3d57e854f12d8cb2358804e49e4f4f34512d62735dee04f0e1377c9a4a3471c0197
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-gui
+Architecture: all
+Version: 1.0.0-1.debian11.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: i3lock, obs-studio
+Filename: pool/bullseye/main/i/its-package-gui/its-package-gui_1.0.0-1.debian11.1_all.deb
+Size: 2164
+MD5sum: 8b2128fdcf19448be93a1c0facaaf0a0
+SHA1: 325897efb22e5a61c2390f00a9765daf5009afde
+SHA256: 5a574bc3048c0ac70cbcc89e3a7dd30f96a9584669fbd806ebfe73e3a9ed6b8b
+SHA512: 03018b4308ea54f5b66abd33ee20e0d21f995b956be56a4861bbe14a9d19865c6bd8a4aedcedc641b218d24db9ad308d521b8540cff9c9d7ae6724a06bdc1ea1
 Homepage: https://github.com/stvstnfrd
 Description: This is a meta-package of my development utilities.
 

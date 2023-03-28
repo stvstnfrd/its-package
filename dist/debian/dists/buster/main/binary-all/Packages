@@ -26,11 +26,65 @@ Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
 Installed-Size: 9
 Depends: docker-ce, docker-ce-cli, docker-compose-plugin, docker-scan-plugin
 Filename: pool/buster/main/i/its-package-dev/its-package-dev_1.0.0-1.debian10.1_all.deb
-Size: 2182
-MD5sum: 7910bb7a66cf87d53bed4a65874006af
-SHA1: be51a3bf30262455c170286d134d443281b31279
-SHA256: 39c99cedbf4d482db53f2c9ba3521b33f6aedfd57dd74ede9866744cd7cd35d2
-SHA512: 6d37d022509789d4588d500695e1276c2c9f16cef6e3495f4c693519e5389d2752b49feabaddf897d38606853e72532f081d74890131ff0ade72f25379b706dc
+Size: 2194
+MD5sum: e52991cf33faa677019a9ab22d502bc0
+SHA1: 7e084b1d20ff2ce945b62d8dd9c3322c04207288
+SHA256: d6c882b31a21dd926b8df90af78df554861c48bce8ebaee44ef6c83a8b2148d2
+SHA512: 589fcfe2d8104824e100c0a066976dac945aca7e92ad4ec51240e839622bbbe9263f675649f68f5289f242250f69929358976992f3817e4cbf8457989210ec41
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-gui
+Architecture: all
+Version: 0.0.0-1.debian10.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: i3lock, obs-studio
+Filename: pool/buster/main/i/its-package-gui/its-package-gui_0.0.0-1.debian10.1_all.deb
+Size: 2160
+MD5sum: e57bc0092451b9305e87cd8c2c57ab32
+SHA1: 75f0e15f7c0b652be21bf7012aba205e9ab23645
+SHA256: 9e320efcb00c5014718923d26a41097e5239a2a5c09c29fba409769a68388b1f
+SHA512: df3eca5b2f48deb356663ca33958e444feb5f3dd0e050b5e38752eb9bae41716158437207e6c2fe9fdf3c697f6f6ebdf7acd5fd2cd92e3c42e0185f7111c49b8
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-gui
+Architecture: all
+Version: 0.1.0-1.debian10.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: i3lock, obs-studio
+Filename: pool/buster/main/i/its-package-gui/its-package-gui_0.1.0-1.debian10.1_all.deb
+Size: 2166
+MD5sum: 1a776e191a582adc734ae2f3fa08b5c5
+SHA1: 9ffa6d5df58d44dc729923c3450232080adb44e4
+SHA256: a3ed2e914c6b8f36ffee9013b17d5badd788fd0f5bb3d709ce94ec6f2bed588d
+SHA512: 0a417e6c32e8ccea2340d5c84332da234924d2c921bc5bcf6c4c3928fb61b01c72832e2c0ba58a06c77f8e09bda12e346b05ce14bdd2f3a3566998cf384ed8c5
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-gui
+Architecture: all
+Version: 1.0.0-1.debian10.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: i3lock, obs-studio
+Filename: pool/buster/main/i/its-package-gui/its-package-gui_1.0.0-1.debian10.1_all.deb
+Size: 2162
+MD5sum: ab68eaa984af0b9542d555a35db5d0a8
+SHA1: 5c3bac0a3e0ba527201e9f7f0135af7221776a81
+SHA256: 0ff68d9fd6fce11d7a2ef82b423ae7260f916b93a133e2895ec9d2b73e269d40
+SHA512: 526ab212afb23136962361a15cb45eb65e871af2ab61f738b351ec6d9611542549bfe2365ce8d202201f30213a7b61198025854ffe460dec93d2edadd40d7b36
 Homepage: https://github.com/stvstnfrd
 Description: This is a meta-package of my development utilities.
 
