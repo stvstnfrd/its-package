@@ -1,1 +1,0 @@
-deb [signed-by=/usr/local/share/keyrings/its-package.gpg] https://raw.githubusercontent.com/stvstnfrd/its-package/master/dist/ubuntu/impish ./

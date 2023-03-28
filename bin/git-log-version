@@ -1,0 +1,15 @@
+#!/bin/sh
+set -aeu
+if [ -n "${2:-}" ]
+then
+	export PATH="${2}:${PATH}"
+fi
+git log \
+	--oneline \
+	--reverse \
+	-- \
+	"${1:-.}" \
+| conventional-commits-to-semantic-version \
+| tail -n1 \
+| awk '{ print $1 }' \
+;

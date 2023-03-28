@@ -1,0 +1,31 @@
+Title: Its The Simple (meta) Package
+Origin: https://raw.githubusercontent.com/stvstnfrd/its-package/master/dist/ubuntu/dists/focal
+Suite: stable
+Codename: focal
+Components: main
+Architectures: all
+Date: Tue, 28 Mar 2023 04:26:02 +0000
+MD5Sum:
+ f4486c94d0084641253220ddecce6f83              236 Release
+ a23ab25866a67624c7c45cad75842297              175 main/Contents-all
+ 2fed2ddeaffc79284552537df628da45               97 main/Contents-all.gz
+ 42e1735e186db2aadbc6c8840fbe0a4b             1376 main/binary-all/Packages
+ 352c1f1c9bb67d34e54181e5cb94123e              868 main/binary-all/Packages.gz
+SHA1:
+ a7cc5951f03b1bf349ff4eee94af37fa23497e07              236 Release
+ ea5c843bc04c950a84fbb2278e3bf3994b0eb19d              175 main/Contents-all
+ 5d104f794cb9516dc25e4092aaf808786760e8f8               97 main/Contents-all.gz
+ 380fdce228be8d5a5de553c508e1caa6ece0f7ed             1376 main/binary-all/Packages
+ b4afce3bc4153d983dc7465097453952f786913c              868 main/binary-all/Packages.gz
+SHA256:
+ eee9b13281e27cf90c0d8ff759af919d48a79419a2e4cab91ebff587ad31a4e8              236 Release
+ ebe06c0320677bf0890262e959596b8fbfb4f37039c76c1a6c3d1a4040aee217              175 main/Contents-all
+ 5a397b18a9b93baa3cee8725462a922ca2bcc678d7afea01d76b1ca564b654e1               97 main/Contents-all.gz
+ c2484f4e7bc0128e74936447f4f4b53fdb2dc31e76f9837a03909acfb6c840bd             1376 main/binary-all/Packages
+ e0196b2d75ee6bd78e8cc7911dc8bb8476ccdfd372512cd09c26134cdd9809ae              868 main/binary-all/Packages.gz
+SHA512:
+ a694e9aee642522d9251efc9d669a2cdfe677aef994e78fe76a734d561ad002fe07e248912b117a1981bf93b3d17159cd6dbba918cda5996547c3fda7156d964              236 Release
+ 1ba02f4827f536760fb8795e25b0267f8716f8306751455f241a63097f7978159d82c60cc3c723169e0d5fcc71c96ee3c356ef0ed23c43c17965f150960936da              175 main/Contents-all
+ ff1481610b3e47127c1edda33f2d6e5848c0f1a38d45be5469a9e0708c9304f1c30a3d17d2b70b9168789bf491041c39be5669b02dfd92668c9578310c140751               97 main/Contents-all.gz
+ 9ee85de21cd9f0348d848c5344e078916315b75a35fad6ff46875b5c5f859ab2c7d1c04ca29b37c7547457a777d1c2364da461f333eac50edcf989efb665cab5             1376 main/binary-all/Packages
+ 0910649ca556b5c7dd4646ebf7ad819ee3a251dc78b02cb1034a35d85f5310af0aad6a8fb427699c2e2c026863f80e15a0023ab811136c9fa02a6f5072b2dd68              868 main/binary-all/Packages.gz
