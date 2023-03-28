@@ -1,3 +1,39 @@
+Package: its-package-dev
+Architecture: all
+Version: 0.1.0-1.debian11.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: docker-ce, docker-ce-cli, docker-compose-plugin, docker-scan-plugin
+Filename: pool/bullseye/main/i/its-package-dev/its-package-dev_0.1.0-1.debian11.1_all.deb
+Size: 2196
+MD5sum: 243b08c53e0c9df31ca2fb3d99857797
+SHA1: f3172d8b779d243bc489cb13844ee8ea4b7db20a
+SHA256: a13e13e3e53bc58b9d3c98b082c1d143741a1c40c9ceb5bca1f29e017e042089
+SHA512: 73f7765cc683b3f37cd7afa31820ff318f3b0bb8c43843a94d175d94fc034597f4b888c77451f93de455c44f6129b5cd3a7adbf5288ae0559f049f9dbce9f368
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-dev
+Architecture: all
+Version: 1.0.0-1.debian11.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: docker-ce, docker-ce-cli, docker-compose-plugin, docker-scan-plugin
+Filename: pool/bullseye/main/i/its-package-dev/its-package-dev_1.0.0-1.debian11.1_all.deb
+Size: 2186
+MD5sum: b2f52fc5e2a0f6074bb84c85b588c939
+SHA1: 2ac9c0f153f14ec7b91dee74feb215b3e6153356
+SHA256: 3ca9282061c85d2c0391246755fbd94b54b406883ef8bcc1821738a05ae51944
+SHA512: f944ebefb4d944c6f2180a3e8e89f791a5c79e84619b2499b099c03ff9cdc163e2c4144b5bce279d508d1cbc7044f9ee63f7bcd809344f741cbc6ae92f034a9a
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
 Package: its-package
 Architecture: all
 Version: 1.0.0-1.debian11.1
@@ -10,11 +46,11 @@ Depends: apg, bash, bash-completion, bc, build-essential, coreutils, cowsay, cur
 Recommends: brightnessctl, bsdgames, claws-mail, claws-mail-doc, claws-mail-tools, cmatrix, cmus, dmenu, exfat-fuse, exfat-utils, firejail, i3, i3lock, i3status, openssh-server, py3status, rsync, sox, ufw, vlc, xcape, xclip
 Suggests: vagrant
 Filename: pool/bullseye/main/i/its-package/its-package_1.0.0-1.debian11.1_all.deb
-Size: 2832
-MD5sum: 81a7f159c5dcaa556eb293dc861762db
-SHA1: e267c69372c9baabe3855eee2373fc306992379b
-SHA256: 71ff6414e0a1d1cb0649751ea2e037c411939a1ee8ccfb8b8dd4cd3f2026772e
-SHA512: d216cc94b4fb7ceee49261ef7023a78bbe69db1f238803456602f8eb4cf6f045be7a5226cf7bb1784a9e115f12c4d02ac0e9b0416aeef073a23f30a5a28ba022
+Size: 2822
+MD5sum: 5e20a69665db6cd0bfe32014dd366103
+SHA1: dbf1dcba2e88ddbf8d1311100fb07eb767539963
+SHA256: ee1b7eae63ccc9dfc1843f6d4d8b68469102604df5edfdbe0912200439e7f64a
+SHA512: e4cf920d196cb0c1df727547e9b4a443caa472a254d066f5fb4285cd498290cefb153bd556bc26829b3ee678d09b47139c14ca7b7401fdbd81f8205922d1df8f
 Homepage: https://github.com/stvstnfrd
 Description: This is a meta-package to automate my local system installs.
 

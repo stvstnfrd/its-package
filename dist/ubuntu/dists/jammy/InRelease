@@ -2,40 +2,40 @@
 Hash: SHA512
 
 Title: Its The Simple (meta) Package
-Origin: https://raw.githubusercontent.com/stvstnfrd/its-package/master/dist/apt/dists/jammy
+Origin: https://raw.githubusercontent.com/stvstnfrd/its-package/master/dist/ubuntu/dists/jammy
 Suite: stable
 Codename: jammy
 Components: main
 Architectures: all
-Date: Tue, 28 Mar 2023 04:00:07 +0000
+Date: Tue, 28 Mar 2023 07:21:15 +0000
 MD5Sum:
- 41d2c83eb70e1b35bcb64660a2d6e576              233 Release
- a23ab25866a67624c7c45cad75842297              175 main/Contents-all
- c3bcb6ca9ed240617979f75248189953               97 main/Contents-all.gz
- a89fb445e19df81f5104f715c2807ec5             1382 main/binary-all/Packages
- 7bb4351cba906f528196e1b9f07b33dd              869 main/binary-all/Packages.gz
+ 1b72a01c9d659248cd081fe9b1fe5b61              236 Release
+ 3b679bd90ef6b0e632184c5abe35e7bd              372 main/Contents-all
+ 737cb7373af53e333288adda33f9e5c8              117 main/Contents-all.gz
+ 8403f0bf9db22b7da4dca8a32d2ac07f             2964 main/binary-all/Packages
+ 4d25aadc01a9d38788f49e4c78b9bc29             1337 main/binary-all/Packages.gz
 SHA1:
- 8d9bd680341f4f77384e64fe2e53bf44b6e5c45f              233 Release
- ea5c843bc04c950a84fbb2278e3bf3994b0eb19d              175 main/Contents-all
- b4e5725bd415043ecdef22442cb4ec10f5348312               97 main/Contents-all.gz
- e2a11256e70d77055de3ca46cf1ef2d82f1204b7             1382 main/binary-all/Packages
- 765398060729d33bf877a95f424441c5e217ecb6              869 main/binary-all/Packages.gz
+ 9c480d51b1445952b7f5ce2aae59e950223cdf27              236 Release
+ 27b095cfb146d95db85bad7241829e842ab7bc67              372 main/Contents-all
+ 79e7e90fcf909fd4453f6db067c815b125a28f62              117 main/Contents-all.gz
+ 8346c28f9db01fadee51c8f6eaeb78dfa9b0bc1d             2964 main/binary-all/Packages
+ 7c6da779b9cd58d0b90efc1211a20b7230c3a545             1337 main/binary-all/Packages.gz
 SHA256:
- b9b3c3c00e9f06538128ad3751c3dc933cbd8647974f8458d85bc31daecb870a              233 Release
- ebe06c0320677bf0890262e959596b8fbfb4f37039c76c1a6c3d1a4040aee217              175 main/Contents-all
- 94be11f7d8c6be10a7dbfad0222ff621378b471f9f56b36e92f2cafb4532a2c4               97 main/Contents-all.gz
- 9d8bcb0329c4e1f0f003caea64d63e68199719c3e9c86949ebe5cb70431ba973             1382 main/binary-all/Packages
- 2d90ec5e5582ae95ae3ceb2c62ab49503aa0bc68ce2c4f8f7b2e9b46283d5265              869 main/binary-all/Packages.gz
+ e9c09fe00049ed6987dc990dfa233d4808bffc9d21e8c7d7e584d763c867a8d7              236 Release
+ 62fb8ecb0de3281f76c4b1bb028851eac9f5e37ddb45204626ec369ea09dfbc7              372 main/Contents-all
+ f3daf4d74fa56d9dbf26fed0a583e0fef71d9907aaadebeee3cde1859584e75d              117 main/Contents-all.gz
+ d1380718ee6627e545edd07b2afc2b16125a11c43feaf4dc719dfe050611b5df             2964 main/binary-all/Packages
+ 77d93432d6dec9e06d44f52063c4a3ed633ca8c2b57eb6d08b05dc30f071fe65             1337 main/binary-all/Packages.gz
 SHA512:
- 617e68c548532989f1ceb080a8569e0385fbb9e8bb4cb51be7211671df69b8c93eb7242656791564d96dc09bcb30a7d5d34db4394caabcf2c2a39a05adbac690              233 Release
- 1ba02f4827f536760fb8795e25b0267f8716f8306751455f241a63097f7978159d82c60cc3c723169e0d5fcc71c96ee3c356ef0ed23c43c17965f150960936da              175 main/Contents-all
- ae5adcd1547cd5db1dd838d4b907189f33f8a60d057c4bc652c51aadffbe255e1f17315daf3ba91c1748d3235a1b97358d65ea2a04d0c942d382035f0c056d22               97 main/Contents-all.gz
- b088a2e81c9d371822f4f45cb44aa8fa66785a8f60a74554a30f29a950643321ae5622819bea2af42195fca9016080d9def6b5a148e928b20e922283facbbc16             1382 main/binary-all/Packages
- 651c170ecfb84dbcbe9e71b624e7758b0db869423efbdf72abb7ef3f36633c438b9fab04c884dbeefb25ed51187081f8aa63209ac9b66ee53aaea1a58d2099bd              869 main/binary-all/Packages.gz
+ 5da59b12e74e25695f699243046c13139022e49180244bbacc9307358092dab3de0a4d8326c043c42ad2966f40358cdb0b9fd8201ef330a4afef60250f63e712              236 Release
+ 286888ff7d21ec608ad31a23668b4d37a2276fdeb71fc9549eb6578e2de4432405b42596229d2ecfd99daddc6ffaaaef039cd37cb1aa9e0d62bbbdfa89e45828              372 main/Contents-all
+ e2ae1330efbf5e2ea9d7d825cfe80907964ee7da1bc3dd20a212c2954b6235f975b554464bd84f69c7dfafc488816595d1338ef1b885da81792dfe10bf58c637              117 main/Contents-all.gz
+ 0c4ea700bddfd413b6c274852cacdcd4e45a8bc2ae4c011fd82703f1cfcbef98908e62174f01c0f6380b49c7de5f3a70817101dce9872708ba55f8915f1d2cb2             2964 main/binary-all/Packages
+ 10036f83683afd223dbbe397cc240a7054d8b3731b17dfb1be32d3f385a3e1d1af37f06d0aff368ae2a4cdd277b157b600b31cd10ed50885925c1688abb65366             1337 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQBLCUk0DD83ixQVNmLT/RBFd0dagUCZCJmSAAKCRCLT/RBFd0d
-arCRAP4g+NgZLFK0KyIOSQ+wGVASOKU9yKA5vOCnzB6Mw0jV0QD7BG8QlTLIbSrP
-vVb5+xOfqcyeixsAzak6ag3AmxyowQM=
-=JKqa
+iHUEARYKAB0WIQQBLCUk0DD83ixQVNmLT/RBFd0dagUCZCKVbAAKCRCLT/RBFd0d
+alItAP9hRlOQxjj+sxv8v++eOJDNKkwYqFsHJSq6CARmnlPkogEAvBWg4ATuBsri
+30nDyPy2v60yZ3IoiJIvDGpN6tMHOgY=
+=wrCh
 -----END PGP SIGNATURE-----

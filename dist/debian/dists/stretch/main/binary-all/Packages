@@ -1,3 +1,39 @@
+Package: its-package-dev
+Architecture: all
+Version: 0.1.0-1.debian09.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: docker-ce, docker-ce-cli
+Filename: pool/stretch/main/i/its-package-dev/its-package-dev_0.1.0-1.debian09.1_all.deb
+Size: 2164
+MD5sum: e4fbb073186a93c96c0a92c4b5fab56f
+SHA1: c6340e9bad8f2980f7564d406756348a048c5e6f
+SHA256: 40a2cd4b96fd345384c0764768da485b21394ce72139a2da34a5ee49b24c3098
+SHA512: ae2ccdf8fc3526c7f5287924787f9231dd6928a4c79d08f4dac039d64d1add14360d2c7e31ea036da55f2976d75b8bf407d317404c7893c319b64280091df51f
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-dev
+Architecture: all
+Version: 1.0.0-1.debian09.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: docker-ce, docker-ce-cli
+Filename: pool/stretch/main/i/its-package-dev/its-package-dev_1.0.0-1.debian09.1_all.deb
+Size: 2160
+MD5sum: 99ec58e8b09732d31e58bd65b70041ec
+SHA1: bdb88c98ca287e1778e8d82d7acb15f8bc85fa91
+SHA256: 663f5c67bc32be5dc0cd1b65fbdf6328804f289a5fa899dc2c22b9d99ec4412a
+SHA512: e5fea0712dd3ce6b7b38e9549e19bf5db369fa991f13d29c7f745a26bb283d74dd01c21fdc998de98c0bdaea64192f53d57a57a240de130fd8470c7d625c851e
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
 Package: its-package
 Architecture: all
 Version: 1.0.0-1.debian09.1
@@ -10,11 +46,11 @@ Depends: apg, bash, bash-completion, bc, build-essential, coreutils, cowsay, cur
 Recommends: brightnessctl, bsdgames, claws-mail, claws-mail-doc, claws-mail-tools, cmatrix, cmus, dmenu, exfat-fuse, exfat-utils, firejail, i3, i3lock, i3status, openssh-server, py3status, rsync, sox, ufw, vlc, xcape, xclip
 Suggests: vagrant
 Filename: pool/stretch/main/i/its-package/its-package_1.0.0-1.debian09.1_all.deb
-Size: 2822
-MD5sum: a458a0d722c972da46ad3e31c906f758
-SHA1: e183bbc327ed26c1155fc7857164cde4bb9a1807
-SHA256: 70f2f22f7e9af9ee363b9405b1f7d89deb96ec262013d793b3998a3e20e63103
-SHA512: 5588b739f325ebb8149aecb60a81cd1734bb914b80d68a24308a1065488fbbcfef2542f0ff450e9e858c4a33c49f151fe0f5bb35731095db2fa9c1fcbc3cf06a
+Size: 2824
+MD5sum: 6668adfba146527124cf138b30fa85ae
+SHA1: a6e9e1c8a56d23c410b601a6bb97eb0df0531b9d
+SHA256: 82b18d15a262322ab417b1249b41ceb80a5fc2fe4a4510c21648491633e378ca
+SHA512: 1e5303f56d2686a198f3f54d15b83ae70350cd7c8882e40bf8ae027d2eb3f70bcb571c2044c81ebae9c8ed8e94945ca386abfc5da265f23c815ecf2b7d352b4c
 Homepage: https://github.com/stvstnfrd
 Description: This is a meta-package to automate my local system installs.
 

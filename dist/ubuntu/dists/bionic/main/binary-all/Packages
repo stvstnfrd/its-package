@@ -1,3 +1,39 @@
+Package: its-package-dev
+Architecture: all
+Version: 0.1.0-1.ubuntu1804.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: docker-ce, docker-ce-cli, docker-compose-plugin, docker-scan-plugin
+Filename: pool/bionic/main/i/its-package-dev/its-package-dev_0.1.0-1.ubuntu1804.1_all.deb
+Size: 2200
+MD5sum: 081d0587ee6d85ce15b75ec513f85d44
+SHA1: 28ffa0e6af4184dd803f5bc8aa5750f03b39535d
+SHA256: 49d79c8b56ed185b0845ecde93ca6fd4d5a39946383c9f676b0c3792be13ce6a
+SHA512: 15397fbbbab7915a0759494f3c83e844861790c663ea70656db9075efa52ec68626cd43a1a032bb4e1866f7266736c533a26f4d3b5082f5e537dce8a696658c0
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-dev
+Architecture: all
+Version: 1.0.0-1.ubuntu1804.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: docker-ce, docker-ce-cli, docker-compose-plugin, docker-scan-plugin
+Filename: pool/bionic/main/i/its-package-dev/its-package-dev_1.0.0-1.ubuntu1804.1_all.deb
+Size: 2190
+MD5sum: a51e49c688bb7cc0ccfdfe1b64f4f5d2
+SHA1: ccdc86d5c69989f68c4766045c593aebecd656bb
+SHA256: 40857339600138ba644f65f54156a430968fce85393ce0e248fd76da815cf429
+SHA512: f798ad0b22f78e1d983fb687986ab0c6ba12c18db42c936e96a1a5c458ad3b6b06372bd889ce42859bbca67e3df92bcc76094d74cbbe17831521c9d73a2c953c
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
 Package: its-package
 Architecture: all
 Version: 1.0.0-1.ubuntu1804.1

@@ -1,3 +1,39 @@
+Package: its-package-dev
+Architecture: all
+Version: 0.1.0-1.ubuntu2204.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: docker-ce, docker-ce-cli, docker-compose-plugin, docker-scan-plugin
+Filename: pool/jammy/main/i/its-package-dev/its-package-dev_0.1.0-1.ubuntu2204.1_all.deb
+Size: 2190
+MD5sum: fb7f3d4f7244ba69da5dca56becad527
+SHA1: 3dd94197982577ae6bb8ca087bb5e79f6d54df1b
+SHA256: 38947ba8201239310a012fb49f3e7fafe9cb91fada9ef434e3ab9ae72d3527a4
+SHA512: 22a0b18ed70fdc2592ee0dfe9c7c90c1e8650f731cd34e9a5e6e6333bbb32db97beb11d3209a0714cb1d763d3700bcc3fd6fa14a65eab61f3216c12d8592fda3
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-dev
+Architecture: all
+Version: 1.0.0-1.ubuntu2204.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: docker-ce, docker-ce-cli, docker-compose-plugin, docker-scan-plugin
+Filename: pool/jammy/main/i/its-package-dev/its-package-dev_1.0.0-1.ubuntu2204.1_all.deb
+Size: 2194
+MD5sum: 7aea6ed7e860eb6eb406caa4817a17e7
+SHA1: 62e15cbbd2cfd61c4fe398ad6a72b897fe711df9
+SHA256: a0c2237ba0b2731ff07ad0f807bbb314a9fde5994c0eb56ba5cf497cd66867db
+SHA512: 914d4a086c5594f1936d9f7304b35baa69db0b31054f98af14c5bd74a34fa93af5696e7d7e3f7c596d8eaf8bc34b5036e14f1a4761e7da76e6e0d3ee623770f2
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
 Package: its-package
 Architecture: all
 Version: 1.0.0-1.ubuntu2204.1
