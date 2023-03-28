@@ -34,6 +34,60 @@ SHA512: 5650cf1a622df8b66d33327e8d0cc4307966b56648f664829f51098e11914730185953d1
 Homepage: https://github.com/stvstnfrd
 Description: This is a meta-package of my development utilities.
 
+Package: its-package-gui
+Architecture: all
+Version: 0.0.0-1.ubuntu2004.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: i3lock, obs-studio
+Filename: pool/focal/main/i/its-package-gui/its-package-gui_0.0.0-1.ubuntu2004.1_all.deb
+Size: 2160
+MD5sum: 3f7076be2a58572330489087d815a750
+SHA1: 18fef145eca4e597ea36f0939d11ae2422aba216
+SHA256: a84c9df2246f5ff77739193b0d2a5f6736d34b0d3fdf35cb82398e61e11188d5
+SHA512: ac10a812f654169d25817110ff47be9a0e506a87442c7f79a6bca975c102c7dd676cd70ac7e5eb6b38f03c79d287aae938b158330396ac091bdf92f05773304d
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-gui
+Architecture: all
+Version: 0.1.0-1.ubuntu2004.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: i3lock, obs-studio
+Filename: pool/focal/main/i/its-package-gui/its-package-gui_0.1.0-1.ubuntu2004.1_all.deb
+Size: 2164
+MD5sum: a31a258e55f435ccb847cfc4faf55f3f
+SHA1: 368ab3e450b692f189533aa000b569310371fb29
+SHA256: 02459a1681a8a187f3a59eb90ab0f626b9df24df3cd1c3e490e8cf9db4dc6505
+SHA512: 4fe2248947cabb2e2fa6018d19a7ff93f780b7370863cac1bfa0e030b17b62668b014a8943ce0ed9e46b0b12a3513637c043c1b25165d9b9a3d698c18e383b52
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-gui
+Architecture: all
+Version: 1.0.0-1.ubuntu2004.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: i3lock, obs-studio
+Filename: pool/focal/main/i/its-package-gui/its-package-gui_1.0.0-1.ubuntu2004.1_all.deb
+Size: 2160
+MD5sum: 8440dfae01b35312494b1edd37a92ee5
+SHA1: 01c65b54a8a82aaaeb6241d714f16fb733171640
+SHA256: 669de33e8bae188e8d4175a89bc1e7294c53d341fa9f91e431f461a0604e6d76
+SHA512: fa0f922bfc42d28b0ed46161feb2c4d131d175b0e03623b818fc26541b4f5409743dd5df6b191280d96b831427b15baf8801adade56887ccfe7ab127c899b2ee
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
 Package: its-package
 Architecture: all
 Version: 1.0.0-1.ubuntu2004.1

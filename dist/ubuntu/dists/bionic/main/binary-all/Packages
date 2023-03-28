@@ -34,6 +34,60 @@ SHA512: f798ad0b22f78e1d983fb687986ab0c6ba12c18db42c936e96a1a5c458ad3b6b06372bd8
 Homepage: https://github.com/stvstnfrd
 Description: This is a meta-package of my development utilities.
 
+Package: its-package-gui
+Architecture: all
+Version: 0.0.0-1.ubuntu1804.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: i3lock, obs-studio
+Filename: pool/bionic/main/i/its-package-gui/its-package-gui_0.0.0-1.ubuntu1804.1_all.deb
+Size: 2164
+MD5sum: eb3c6284a2814fd40c503c90b059c9c9
+SHA1: 4e758f7933fd20bdbc8da6d89392adb34a3a455f
+SHA256: 6ae5e3b4114eeb57954ec93d71ca77984d08e059808a4bcd6c83f0af032777fa
+SHA512: 1e33a7e09411cfddecf6b619f6598ba6f3ed88e4a3ef5598b9559327ded441592f6e32682f8d83521438405ad7b63205c4b2473811c9ffe04e8526555b07a5c9
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-gui
+Architecture: all
+Version: 0.1.0-1.ubuntu1804.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: i3lock, obs-studio
+Filename: pool/bionic/main/i/its-package-gui/its-package-gui_0.1.0-1.ubuntu1804.1_all.deb
+Size: 2162
+MD5sum: 70f9a1facd3bd3cb400143f9ef0e0884
+SHA1: a0e34687b8971cc72813a3ecbe7af866bdd37102
+SHA256: b0d26506bed9869dcf6b536d601ca39aa20aecb0a30815bb129abed6f071eaeb
+SHA512: 3fcf1db3d706c888d9a716fb2a1d5013abe0bff42fb0f2109edcdeb3dbb5af798e6f7b96426c313d080abd5de4c344c697e1b0995b103e4fdb2321ad1febfaa3
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-gui
+Architecture: all
+Version: 1.0.0-1.ubuntu1804.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: i3lock, obs-studio
+Filename: pool/bionic/main/i/its-package-gui/its-package-gui_1.0.0-1.ubuntu1804.1_all.deb
+Size: 2162
+MD5sum: 2aed88685b874f34964f3dde070497d1
+SHA1: b85c6406945f277eb893072995bf33391a8d2038
+SHA256: aa5f6592deabd9e00c95f9caa4319589d5fcfa43f1c2d1b8b8e0d9f098180cfa
+SHA512: c82a2caa890f9e4ac9ae5c7cb1b19a5ca1d760a8a56328f679633c7129eb066de12421e02cca288581425c388d99a18e9dd88d0cd9a91d5362673c7d682dfbd6
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
 Package: its-package
 Architecture: all
 Version: 1.0.0-1.ubuntu1804.1
