@@ -14,6 +14,6 @@ USER ${USER}
 
 COPY --chown=dev dist/debian/Bootstrap.sh /tmp/bootstrap.sh
 RUN sh /tmp/bootstrap.sh
-RUN sudo DEBIAN_FRONTEND=noninteractive apt-get install --yes its-package its-package-dev
+RUN sudo DEBIAN_FRONTEND=noninteractive apt-get install --yes its-package its-package-dev its-package-gui
 
 CMD ["bash", "--login"]
