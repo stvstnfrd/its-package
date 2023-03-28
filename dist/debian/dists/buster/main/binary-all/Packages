@@ -1,3 +1,39 @@
+Package: its-package-dev
+Architecture: all
+Version: 0.1.0-1.debian10.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: docker-ce, docker-ce-cli, docker-compose-plugin, docker-scan-plugin
+Filename: pool/buster/main/i/its-package-dev/its-package-dev_0.1.0-1.debian10.1_all.deb
+Size: 2194
+MD5sum: bba4b805ee5bdade34a9b4e12ba7c94b
+SHA1: 4036f17a5e8a7798779d22a68711fed0c0467e04
+SHA256: d68367d85178b297a530b0868c6c1d45e65349b02f70f447b4d11f8265a39a2b
+SHA512: 9adfd19a7784978f0064eece5b015fec7628f9ef5d3740e5f88f06cc4d00d4e99f7691a2df16f81da3519a43b0b2bc29c9b72bd4c5ae053b22055c700ef8ff1b
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
+Package: its-package-dev
+Architecture: all
+Version: 1.0.0-1.debian10.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: docker-ce, docker-ce-cli, docker-compose-plugin, docker-scan-plugin
+Filename: pool/buster/main/i/its-package-dev/its-package-dev_1.0.0-1.debian10.1_all.deb
+Size: 2182
+MD5sum: 7910bb7a66cf87d53bed4a65874006af
+SHA1: be51a3bf30262455c170286d134d443281b31279
+SHA256: 39c99cedbf4d482db53f2c9ba3521b33f6aedfd57dd74ede9866744cd7cd35d2
+SHA512: 6d37d022509789d4588d500695e1276c2c9f16cef6e3495f4c693519e5389d2752b49feabaddf897d38606853e72532f081d74890131ff0ade72f25379b706dc
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
 Package: its-package
 Architecture: all
 Version: 1.0.0-1.debian10.1
@@ -10,11 +46,11 @@ Depends: apg, bash, bash-completion, bc, build-essential, coreutils, cowsay, cur
 Recommends: brightnessctl, bsdgames, claws-mail, claws-mail-doc, claws-mail-tools, cmatrix, cmus, dmenu, exfat-fuse, exfat-utils, firejail, i3, i3lock, i3status, openssh-server, py3status, rsync, sox, ufw, vlc, xcape, xclip
 Suggests: vagrant
 Filename: pool/buster/main/i/its-package/its-package_1.0.0-1.debian10.1_all.deb
-Size: 2832
-MD5sum: bf8e5c8b7cb619547c9d6ed7f857657a
-SHA1: eb9e85cb3c7b2ce1681cc69781836c72b01e0fc7
-SHA256: 1c4b6aabd41d1bb2b0ab67a8934841c064d865325b7be0c602fbf06b6351eae9
-SHA512: e1ad4e81da44a3ed2ab48a59a148547a4ec34616a133165c62d6088e0b754576222e79b9c1b5369e5095df2309e2e5f2b2dc09d65a664979b6a2910f21b360fb
+Size: 2830
+MD5sum: 0667f9426ad26e05ada3fe42aee29f0f
+SHA1: bdc15d992893efc4637e7dcfc3b4de7ec33cf195
+SHA256: a1f052488aac73c73b50076c1caf480468b74decfa61c249e488eed40ce8fdeb
+SHA512: bca31e0486893a246de65ecd6dcfe3146f69d295a850e74d40cab80ae8786edcada42ad6ccfd25b579ce6b9a3545615e829b963353ac498f8c54abc8f1513707
 Homepage: https://github.com/stvstnfrd
 Description: This is a meta-package to automate my local system installs.
 
