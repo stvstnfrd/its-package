@@ -88,6 +88,24 @@ SHA512: fa0f922bfc42d28b0ed46161feb2c4d131d175b0e03623b818fc26541b4f5409743dd5df
 Homepage: https://github.com/stvstnfrd
 Description: This is a meta-package of my development utilities.
 
+Package: its-package-gui
+Architecture: all
+Version: 1.1.0-1.ubuntu2004.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: claws-mail, claws-mail-doc, claws-mail-tools, dmenu, i3, i3lock, i3status, obs-studio, py3status, v4l2loopback-dkms, v4l2loopback-utils, vlc
+Filename: pool/focal/main/i/its-package-gui/its-package-gui_1.1.0-1.ubuntu2004.1_all.deb
+Size: 2278
+MD5sum: 3bed364f59e12c3727abc1a3ae05599e
+SHA1: 71d4b68b70d5a517ad5fce72ea987a1242ccb377
+SHA256: 24937f033ffb6326cd5fa6fb0f1ec7a9cb1bb0bc2c7ee2699e02ad3453ae65a6
+SHA512: ee2983fb91283b93c6c595fb6d040e118047c48b0c8da720fff7acbfa15fc6f4260cf4adb7af77d6d87dc2f97bdb051c4c3d4fb5af26a4b2653a43502ad418fb
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
 Package: its-package
 Architecture: all
 Version: 1.0.0-1.ubuntu2004.1
@@ -105,6 +123,26 @@ MD5sum: d51d0bb01d5a7b16724396755b485300
 SHA1: 12c08334bf0ca5fc2c2ad0d27b4510fd4db0d60c
 SHA256: ac6b382f6e005114f9fb726fd3c6389ac81c38a94c95a09cc8b5a1d6d739cba1
 SHA512: 969b1198611b437db7e953baeeea0be3f5e09ee4308f9cab26e0e600956dc834234bc618c734e8e53596509c83389ea995da830e1258a8f4398c48a53b6baca5
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package to automate my local system installs.
+
+Package: its-package
+Architecture: all
+Version: 1.1.0-1.ubuntu2004.1
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 10
+Depends: apg, bash, bash-completion, bc, build-essential, coreutils, cowsay, curl, dash, figlet, findutils, fortune, fzf, git, gnupg, graphviz, grep, gron, htop, jq, less, lsb-core, lynx, man, mutt, neofetch, netcat, newsboat, nodejs, pandoc, pass, playerctl, python3.8, qrencode, ranger, sbcl, sed, screen, shellcheck, sqlite, stow, sudo, tmux, tree, vim, watch, wget, whois, xz-utils, zsh
+Recommends: brightnessctl, bsdgames, cmatrix, cmus, exfat-fuse, exfat-utils, firejail, openssh-server, rsync, sox, ufw, xcape, xclip
+Suggests: vagrant
+Filename: pool/focal/main/i/its-package/its-package_1.1.0-1.ubuntu2004.1_all.deb
+Size: 2766
+MD5sum: 5739eb2122b8cc3182b23950cf8a2c39
+SHA1: 1214fcb1d0c953ff2533997ccdc1392c42c5f0f0
+SHA256: 3d36e1a40a6ed437e7ef5452ce2315c8d9be669ebb2d78f8bf2385ce3e52118e
+SHA512: 5f681e2c90efd62fb9282269c05fbed4a8bdeb03089549b58d7508ce7299436f66489dc0a7142eb0b4669ab7ebefb9729b302c4a5cc8730a2e04cdd3a927823c
 Homepage: https://github.com/stvstnfrd
 Description: This is a meta-package to automate my local system installs.
 

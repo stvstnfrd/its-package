@@ -88,6 +88,24 @@ SHA512: 526ab212afb23136962361a15cb45eb65e871af2ab61f738b351ec6d9611542549bfe236
 Homepage: https://github.com/stvstnfrd
 Description: This is a meta-package of my development utilities.
 
+Package: its-package-gui
+Architecture: all
+Version: 1.1.0-1.debian10.1
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 9
+Depends: claws-mail, claws-mail-doc, claws-mail-tools, dmenu, i3, i3lock, i3status, obs-studio, py3status, vlc
+Filename: pool/buster/main/i/its-package-gui/its-package-gui_1.1.0-1.debian10.1_all.deb
+Size: 2236
+MD5sum: c0f097c7801bc4a735f0caa2b4eed969
+SHA1: 19b3a5c965f5ad412aeea912f1215fc10e6807db
+SHA256: 558e426792a08d1dd4c9eb73c83d65a087d6d70945d2f0e29d30d407839b1766
+SHA512: 31e80d16f5ae1f7ce4e4886340dcc8b12bdfc797d5a7ec9ad2e8e860912b09139ee47dd7da27db2b7b1e669a10b4aa877fc77211eac118f69934f8e0dbae278d
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package of my development utilities.
+
 Package: its-package
 Architecture: all
 Version: 1.0.0-1.debian10.1
@@ -105,6 +123,26 @@ MD5sum: 0667f9426ad26e05ada3fe42aee29f0f
 SHA1: bdc15d992893efc4637e7dcfc3b4de7ec33cf195
 SHA256: a1f052488aac73c73b50076c1caf480468b74decfa61c249e488eed40ce8fdeb
 SHA512: bca31e0486893a246de65ecd6dcfe3146f69d295a850e74d40cab80ae8786edcada42ad6ccfd25b579ce6b9a3545615e829b963353ac498f8c54abc8f1513707
+Homepage: https://github.com/stvstnfrd
+Description: This is a meta-package to automate my local system installs.
+
+Package: its-package
+Architecture: all
+Version: 1.1.0-1.debian10.1
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Maintainer: stvstnfrd <stvstnfrd@noreply.users.github.com>
+Installed-Size: 10
+Depends: apg, bash, bash-completion, bc, build-essential, coreutils, cowsay, curl, dash, figlet, findutils, fortune, git, gnupg, graphviz, grep, htop, jq, less, lsb-base, lsb-release, lynx, man, mutt, neofetch, netcat, newsboat, nodejs, pandoc, pass, python3.7, qrencode, ranger, sbcl, sed, screen, shellcheck, sqlite, stow, sudo, tmux, tree, vim, watch, wget, whois, xz-utils, zsh
+Recommends: brightnessctl, bsdgames, cmatrix, cmus, exfat-fuse, exfat-utils, firejail, openssh-server, rsync, sox, ufw, xcape, xclip
+Suggests: vagrant
+Filename: pool/buster/main/i/its-package/its-package_1.1.0-1.debian10.1_all.deb
+Size: 2744
+MD5sum: 701c268a614cc04e2ab41691cce6e0f5
+SHA1: 94465f5e10526290c70643c382c51e81d3816bef
+SHA256: 31922d4e7489bd538ec669f80eb51b3700f56ad15ec1bb6afbe35a96cc9dcca3
+SHA512: 55e02cf890972be7eb42da0b76cfbbe35d66edb2ebda62e969957a6bd2734a292b3b9bdda48365a1116bd4d8ba899dda7f0c25bfbdb26e26036e38729f2e16ff
 Homepage: https://github.com/stvstnfrd
 Description: This is a meta-package to automate my local system installs.
 
